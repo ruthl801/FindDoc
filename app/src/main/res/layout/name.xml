@@ -90,16 +90,17 @@
                         tools:ignore="MissingConstraints">
 
                         <EditText
-                            android:id="@+id/editTextTextEmailAddress2"
+                            android:id="@+id/username"
                             android:layout_width="263dp"
                             android:layout_height="42dp"
                             android:background="@drawable/border"
                             android:ems="10"
                             android:fontFamily="@font/nunitosemibold"
                             android:inputType="text"
-                            android:text="       Enter your name"
+                            android:hint="Enter your name"
+                            android:padding="14dp"
                             android:textColor="@color/white"
-                            android:textSize="10dp"
+                            android:textSize="13dp"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintHorizontal_bias="0.492"
                             app:layout_constraintStart_toStartOf="parent"
@@ -126,7 +127,7 @@
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
-                    android:layout_height="151dp">
+                    android:layout_height="165dp">
 
                     <ImageView
                         android:id="@+id/imageView02"

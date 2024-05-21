@@ -98,7 +98,7 @@
                         android:layout_height="match_parent">
 
                         <TextView
-                            android:id="@+id/textView8"
+                            android:id="@+id/tvMale"
                             android:layout_width="99dp"
                             android:layout_height="99dp"
                             android:background="@drawable/circle"
@@ -118,10 +118,10 @@
                             android:text="M"
                             android:textColor="@color/white"
                             android:textSize="30dp"
-                            app:layout_constraintBottom_toBottomOf="@+id/textView8"
-                            app:layout_constraintEnd_toEndOf="@+id/textView8"
-                            app:layout_constraintStart_toStartOf="@+id/textView8"
-                            app:layout_constraintTop_toTopOf="@+id/textView8" />
+                            app:layout_constraintBottom_toBottomOf="@+id/tvMale"
+                            app:layout_constraintEnd_toEndOf="@+id/tvMale"
+                            app:layout_constraintStart_toStartOf="@+id/tvMale"
+                            app:layout_constraintTop_toTopOf="@+id/tvMale" />
 
 
                     </androidx.constraintlayout.widget.ConstraintLayout>
@@ -131,7 +131,7 @@
                         android:layout_height="match_parent">
 
                         <TextView
-                            android:id="@+id/textView7"
+                            android:id="@+id/tvFemale"
                             android:layout_width="99dp"
                             android:layout_height="99dp"
                             android:background="@drawable/circle"
@@ -151,10 +151,10 @@
                             android:text="F"
                             android:textColor="@color/white"
                             android:textSize="30dp"
-                            app:layout_constraintBottom_toBottomOf="@+id/textView7"
+                            app:layout_constraintBottom_toBottomOf="@+id/tvFemale"
                             app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toStartOf="@+id/textView7"
-                            app:layout_constraintTop_toTopOf="@+id/textView7" />
+                            app:layout_constraintStart_toStartOf="@+id/tvFemale"
+                            app:layout_constraintTop_toTopOf="@+id/tvFemale" />
                     </androidx.constraintlayout.widget.ConstraintLayout>
 
                 </LinearLayout>
